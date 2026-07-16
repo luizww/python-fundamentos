@@ -1,0 +1,6 @@
+frase=(input('Digite uma frase '))
+minus=frase.lower()
+vezes=minus.count('a')
+primeiro=minus.find('a')
+ultima=minus.rfind('a')
+print("A letra 'a' aparece {} vezes na sua frase,aparecendo primeiro em {} e por ultimo em {}".format(vezes , primeiro , ultima))

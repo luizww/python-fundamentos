@@ -1,0 +1,6 @@
+name=input('Qual seu nome completo?')
+maiscula=name.upper()
+minuscula=name.lower()
+quantidade=len(name) - name.count (' ')
+primeiro=(name.find(' '))
+print(name , maiscula , minuscula , quantidade , primeiro)

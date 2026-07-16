@@ -1,0 +1,5 @@
+times=('Palmeiras','São Paulo','Corinthias','Bahia','Fluminense','Atletico paranaense','Bragantino','Gremio','Chapecoense','Mirassol','Flamengo','Coritiba','Santos','Botafogo','EC Vitoria','Remo','Atlettico Mineiro','Internacional','Cruzeiro','Vasco da Gama')
+print(f'Os primeiros 5 colocados na tabela do brasileirão são respectivamente: {times[0:5]}')
+print(f'Os 4 últimos colocados são respectivamente: {times[-4:]}')
+print(f'Todos os times que estaõ paticipando em ordem alfabetica : {sorted(times)}')
+print(f"A Chapecoense está na {times.index('Chapecoense') + 1}ª posição.")
