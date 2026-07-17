@@ -1,7 +1,18 @@
-# Fundamentos de Python
+<p align="center">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" width="78" alt="Python">
+</p>
 
-![Python](https://img.shields.io/badge/Python-3.10%2B-3776AB?logo=python&logoColor=white)
-![Status](https://img.shields.io/badge/status-em%20evolução-6C63FF)
+<h1 align="center">Fundamentos de Python</h1>
+
+<p align="center">
+  Exercícios simples que registram minha evolução na linguagem.
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3.10%2B-3776AB?logo=python&logoColor=white" alt="Python 3.10+">
+  <img src="https://img.shields.io/badge/49-exercícios-2EA44F" alt="49 exercícios">
+  <img src="https://img.shields.io/badge/status-em%20evolução-6C63FF" alt="Em evolução">
+</p>
 
 Coleção de exercícios desenvolvidos durante meus primeiros estudos de Python.
 O repositório registra minha evolução desde entrada e saída de dados até
