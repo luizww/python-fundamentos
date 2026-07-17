@@ -5,8 +5,7 @@
 
 Coleção de exercícios desenvolvidos durante meus primeiros estudos de Python.
 O repositório registra minha evolução desde entrada e saída de dados até
-estruturas condicionais, repetições, coleções, jogos simples e interfaces
-gráficas.
+estruturas condicionais, repetições, coleções e jogos simples.
 
 ## Objetivo
 
@@ -23,7 +22,6 @@ a execução.
 | `03_lacos` | `for`, `while`, tabuada, fatorial e progressões |
 | `04_colecoes` | Listas, tuplas, ordenação e cadastros |
 | `05_jogos` | Pedra, papel e tesoura e jogo de adivinhação |
-| `06_interfaces` | Simulação gravitacional criada com Tkinter |
 
 ## Conceitos praticados
 
@@ -33,7 +31,7 @@ a execução.
 - Laços `for` e `while`;
 - Listas, tuplas e funções nativas;
 - Módulos da biblioteca padrão;
-- Primeiros passos com interfaces gráficas.
+- Organização de pequenos programas independentes.
 
 ## Como executar
 
