@@ -1,1 +1,0 @@
-if chute==sorteio:
