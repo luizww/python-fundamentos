@@ -1,68 +1,68 @@
-<p align="center">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" width="78" alt="Python">
-</p>
+<p align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" width="78" alt="Python"></p>
 
-<h1 align="center">Fundamentos de Python</h1>
-
-<p align="center">
-  Exercícios simples que registram minha evolução na linguagem.
-</p>
+<h1 align="center">Python · Fundamentos e Projetos</h1>
+<p align="center">Minha evolução na linguagem, dos primeiros exercícios às automações do dia a dia.</p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Python-3.10%2B-3776AB?logo=python&logoColor=white" alt="Python 3.10+">
-  <img src="https://img.shields.io/badge/49-exercícios-2EA44F" alt="49 exercícios">
-  <img src="https://img.shields.io/badge/status-em%20evolução-6C63FF" alt="Em evolução">
+<img src="https://img.shields.io/badge/Python-3.10%2B-3776AB?logo=python&logoColor=white" alt="Python 3.10+">
+<img src="https://img.shields.io/badge/foco-aprendizado%20prático-7B2CBF" alt="Aprendizado prático">
+<img src="https://img.shields.io/badge/status-em%20evolução-2EA44F" alt="Em evolução">
 </p>
 
-Coleção de exercícios desenvolvidos durante meus primeiros estudos de Python.
-O repositório registra minha evolução desde entrada e saída de dados até
-estruturas condicionais, repetições, coleções e jogos simples.
+## Explore o repositório
 
-## Objetivo
-
-Praticar lógica de programação por meio de problemas pequenos e independentes.
-Os códigos foram organizados por assunto e revisados para facilitar a leitura e
-a execução.
-
-## Organização
-
-| Pasta | Conteúdo |
+| Etapa | Conteúdo |
 | --- | --- |
-| `01_basico` | Variáveis, operadores, conversões e manipulação de strings |
-| `02_condicionais` | Decisões, comparações, IMC, triângulos e pagamentos |
-| `03_lacos` | `for`, `while`, tabuada, fatorial e progressões |
-| `04_colecoes` | Listas, tuplas, ordenação e cadastros |
-| `05_jogos` | Pedra, papel e tesoura e jogo de adivinhação |
+| [01 · Básico](01_basico/) | Variáveis, operadores, conversões e strings |
+| [02 · Condicionais](02_condicionais/) | Comparações e decisões |
+| [03 · Laços](03_lacos/) | Repetições, cálculos e progressões |
+| [04 · Coleções](04_colecoes/) | Listas, tuplas, ordenação e cadastros |
+| [05 · Projetos](05_projetos/) | Jogos, sistema bancário e automação de PDFs |
 
-## Conceitos praticados
+## Projetos em destaque
 
-- Entrada e saída de dados;
-- Operadores aritméticos e relacionais;
-- Condicionais `if`, `elif` e `else`;
-- Laços `for` e `while`;
-- Listas, tuplas e funções nativas;
-- Módulos da biblioteca padrão;
-- Organização de pequenos programas independentes.
+### 📄 TikTok PDF Organizer
+
+Aplicativo desktop que relaciona etiquetas e DANFEs pelo código de rastreio e gera um PDF na ordem correta. Inclui interface gráfica, exemplos fictícios, testes automatizados e build para Windows.
+
+[Conhecer a automação →](05_projetos/tiktok-pdf-organizer/)
+
+### ⚔️ Valkir — RPG de terminal
+
+Aventura textual com três classes, equipamentos, combate por turnos e caminhos diferentes. Usa somente a biblioteca padrão do Python.
+
+[Explorar o jogo →](05_projetos/rpg-valkir-python/)
+
+### 🏦 Sistema bancário
+
+Simulação de depósitos, saques e extrato para praticar funções, validações e histórico de operações.
+
+[Ver o código →](05_projetos/sistema_bancario.py)
 
 ## Como executar
 
-Requer Python 3.10 ou superior. Escolha um exercício e execute pelo terminal:
+Requer Python 3.10 ou superior. Clone o repositório e escolha um programa:
 
 ```bash
+git clone https://github.com/luizww/python-fundamentos.git
+cd python-fundamentos
 python 01_basico/soma.py
 ```
 
-No Windows, também é possível utilizar:
+No Windows, você também pode usar `py` no lugar de `python`.
 
-```powershell
-py 01_basico\soma.py
-```
+Cada programa é independente. O organizador de PDFs possui [dependências e instruções próprias](05_projetos/tiktok-pdf-organizer/README.md#como-executar).
 
-## Observação
+## Aprendizados
 
-Este é um repositório educacional. Os exercícios representam diferentes etapas
-do meu aprendizado e, por isso, utilizam soluções simples de forma intencional.
+- Entrada e saída de dados, operadores e conversões;
+- Condicionais, laços, listas, tuplas e dicionários;
+- Funções e organização de programas;
+- Leitura e processamento de PDFs;
+- Interfaces desktop e testes automatizados.
 
-## Autor
+Os exercícios preservam soluções simples de forma intencional e representam diferentes etapas do meu aprendizado. O histórico anterior dos projetos integrados permanece nos repositórios de origem.
+
+---
 
 Desenvolvido por [Luiz Othávio](https://github.com/luizww).
