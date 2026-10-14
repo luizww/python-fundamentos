@@ -9,6 +9,12 @@
 <img src="https://img.shields.io/badge/status-em%20evolução-2EA44F" alt="Em evolução">
 </p>
 
+## Relação com meus estudos em dados
+
+Este repositório reúne minha base de programação em Python. Os exercícios e a automação de PDFs ajudam a praticar lógica, validação e manipulação de informações; os jogos e o sistema bancário são projetos de aprendizado.
+
+Meus estudos de [SQL](https://github.com/luizww/sql-adventureworks-estudos) e o [dashboard Café Aurora](https://github.com/luizww/Cafe-Aurora) complementam essa jornada na área de dados.
+
 ## Explore o repositório
 
 | Pasta | Conteúdo |
