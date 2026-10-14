@@ -39,7 +39,7 @@ criatura que ameaça a vila de **Valkir**.
 Na raiz deste repositório, entre na pasta do projeto:
 
 ```bash
-cd 05_projetos/rpg-valkir-python
+cd projetos/rpg_valkir
 ```
 
 ```bash

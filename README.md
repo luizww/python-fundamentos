@@ -11,13 +11,20 @@
 
 ## Explore o repositório
 
-| Etapa | Conteúdo |
+| Pasta | Conteúdo |
 | --- | --- |
-| [01 · Básico](01_basico/) | Variáveis, operadores, conversões e strings |
-| [02 · Condicionais](02_condicionais/) | Comparações e decisões |
-| [03 · Laços](03_lacos/) | Repetições, cálculos e progressões |
-| [04 · Coleções](04_colecoes/) | Listas, tuplas, ordenação e cadastros |
-| [05 · Projetos](05_projetos/) | Jogos, sistema bancário e automação de PDFs |
+| [Fundamentos](fundamentos/) | Variáveis, operadores, conversões e strings |
+| [Estruturas de controle](estruturas_de_controle/) | Condicionais e repetições |
+| [Coleções](colecoes/) | Listas, tuplas, ordenação e cadastros |
+| [Projetos](projetos/) | Jogos, sistema bancário e automação de PDFs |
+
+### Sequência de estudo
+
+1. [Fundamentos](fundamentos/)
+2. [Condicionais](estruturas_de_controle/condicionais/)
+3. [Repetições](estruturas_de_controle/repeticoes/)
+4. [Coleções](colecoes/)
+5. [Projetos](projetos/)
 
 ## Projetos em destaque
 
@@ -25,19 +32,19 @@
 
 Aplicativo desktop que relaciona etiquetas e DANFEs pelo código de rastreio e gera um PDF na ordem correta. Inclui interface gráfica, exemplos fictícios, testes automatizados e build para Windows.
 
-[Conhecer a automação →](05_projetos/tiktok-pdf-organizer/)
+[Conhecer a automação →](projetos/pdf_organizer/)
 
 ### ⚔️ Valkir — RPG de terminal
 
 Aventura textual com três classes, equipamentos, combate por turnos e caminhos diferentes. Usa somente a biblioteca padrão do Python.
 
-[Explorar o jogo →](05_projetos/rpg-valkir-python/)
+[Explorar o jogo →](projetos/rpg_valkir/)
 
 ### 🏦 Sistema bancário
 
 Simulação de depósitos, saques e extrato para praticar funções, validações e histórico de operações.
 
-[Ver o código →](05_projetos/sistema_bancario.py)
+[Ver o código →](projetos/sistema_bancario/main.py)
 
 ## Como executar
 
@@ -46,12 +53,12 @@ Requer Python 3.10 ou superior. Clone o repositório e escolha um programa:
 ```bash
 git clone https://github.com/luizww/python-fundamentos.git
 cd python-fundamentos
-python 01_basico/soma.py
+python fundamentos/soma.py
 ```
 
 No Windows, você também pode usar `py` no lugar de `python`.
 
-Cada programa é independente. O organizador de PDFs possui [dependências e instruções próprias](05_projetos/tiktok-pdf-organizer/README.md#como-executar).
+Cada programa é independente. O organizador de PDFs possui [dependências e instruções próprias](projetos/pdf_organizer/README.md#como-executar).
 
 ## Aprendizados
 

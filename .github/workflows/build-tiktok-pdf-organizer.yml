@@ -7,7 +7,7 @@ on:
       - main
     paths:
       - ".github/workflows/build-tiktok-pdf-organizer.yml"
-      - "05_projetos/tiktok-pdf-organizer/**"
+      - "projetos/pdf_organizer/**"
 
 permissions:
   contents: read
@@ -18,7 +18,7 @@ jobs:
 
     defaults:
       run:
-        working-directory: 05_projetos/tiktok-pdf-organizer
+        working-directory: projetos/pdf_organizer
 
     steps:
       - name: Checkout repository
@@ -30,8 +30,8 @@ jobs:
           python-version: "3.12"
           cache: pip
           cache-dependency-path: |
-            05_projetos/tiktok-pdf-organizer/requirements.txt
-            05_projetos/tiktok-pdf-organizer/requirements-dev.txt
+            projetos/pdf_organizer/requirements.txt
+            projetos/pdf_organizer/requirements-dev.txt
 
       - name: Install dependencies
         run: |
@@ -59,6 +59,6 @@ jobs:
         uses: actions/upload-artifact@v5
         with:
           name: TikTokPDFOrganizer-Windows
-          path: 05_projetos/tiktok-pdf-organizer/dist/TikTokPDFOrganizer.exe
+          path: projetos/pdf_organizer/dist/TikTokPDFOrganizer.exe
           if-no-files-found: error
           retention-days: 14

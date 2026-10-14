@@ -96,7 +96,7 @@ py scripts\create_sample_pdfs.py
 Na raiz deste repositório, entre na pasta do projeto:
 
 ```bash
-cd 05_projetos/tiktok-pdf-organizer
+cd projetos/pdf_organizer
 ```
 
 Requer Python 3.10 ou superior.
